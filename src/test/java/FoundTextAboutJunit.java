@@ -33,6 +33,6 @@ public class FoundTextAboutJunit {
                 "    $(\"#first\").should(visible).click();\n" +
                 "    $(\"#second\").should(visible).click();\n" +
                 "  }\n" +
-                "}\n")).should(visible);
+                "}\n")).shouldBe(visible);
             }
         }
